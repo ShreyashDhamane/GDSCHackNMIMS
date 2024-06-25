@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(161, 161, 161);
+    border-radius: 50px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgb(233, 231, 231);
+    border-radius: 50px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.i {
+  cursor: pointer;
+}
+
+img {
+  background: rgb(226, 226, 226);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.flex-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-cc {
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  cursor: pointer;
+}
